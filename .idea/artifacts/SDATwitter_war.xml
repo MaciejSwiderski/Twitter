@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SDATwitter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SDATwitter.war">
+      <element id="artifact" artifact-name="SDATwitter:war exploded" />
+    </root>
+  </artifact>
+</component>
