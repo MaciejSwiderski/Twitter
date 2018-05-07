@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146be1d9-c211-4188-a839-a711c58d88c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="146be1d9-c211-4188-a839-a711c58d88c8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -585,7 +583,7 @@
       <workItem from="1524393112452" duration="18322000" />
       <workItem from="1524419852281" duration="7576000" />
       <workItem from="1524429765481" duration="212276000" />
-      <workItem from="1525597681405" duration="31071000" />
+      <workItem from="1525597681405" duration="32955000" />
     </task>
     <servers />
   </component>
@@ -598,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="487226000" />
+    <option name="totallyTimeSpent" value="489110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,10 +629,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.38071895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.38071895" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Persistence" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8150852" visible="true" weight="0.22087745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8150852" visible="true" weight="0.22087745" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.503268" side_tool="true" weight="0.25340393" />
