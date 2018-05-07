@@ -3,15 +3,12 @@ package com.sdacademy.twitter.services;
 
 import com.sdacademy.twitter.data.CommentDao;
 import com.sdacademy.twitter.data.TweetDao;
-import com.sdacademy.twitter.data.UserDao;
 import com.sdacademy.twitter.model.Comments;
 import com.sdacademy.twitter.model.Tweet;
-import com.sdacademy.twitter.model.User;
 import com.sdacademy.twitter.utilis.Utils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

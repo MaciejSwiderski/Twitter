@@ -54,7 +54,7 @@
     <c:choose>
         <c:when test="${commentsss !=null}">
             <table align="center">
-                <form method="post" action="/updateComment">
+                <form method="post" action="updateComment">
                     <tr>
                         <td><textarea name="message"><c:out value="${commentsss.message}"/></textarea>
                     <tr>

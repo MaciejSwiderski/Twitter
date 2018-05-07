@@ -51,7 +51,7 @@
 <c:choose>
     <c:when test="${user!=null}">
         <table align="center">
-            <form method="post" action="/userEdit">
+            <form method="post" action="userEdit">
 
 
                 <tr>

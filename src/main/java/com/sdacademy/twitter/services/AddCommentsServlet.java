@@ -39,7 +39,7 @@ public class AddCommentsServlet extends HttpServlet {
         final Optional<Long> userId = Utils.getUserIdFromSession(req);
         final Long idTwiit = Long.valueOf(req.getParameter("twittId"));
 
-        if (userId.isPresent()) {
+        if (userId.isPresent()&&(message!="")) {
             Optional<User> user = userDao.get(userId.get());
             Optional<Tweet> tweet = tweetDao.get(idTwiit);
 

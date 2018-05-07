@@ -41,7 +41,7 @@ To change this template use File | Settings | File Templates.
     <c:choose>
         <c:when test="${twiit !=null}">
             <table align="center">
-                <form method="post" action="/updateTwitt">
+                <form method="post" action="updateTwitt">
                     <tr>
                         <td><textarea name="message"><c:out value="${twiit.message}"/></textarea>
                     <tr>

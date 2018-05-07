@@ -40,7 +40,7 @@
 <c:if test="${sessionOk}">
 
     <table align="center">
-        <form method="post" action="/addTwitt">
+        <form method="post" action="addTwitt">
             <tr>
                 <td><textarea name="message"></textarea></td>
             </tr>

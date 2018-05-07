@@ -41,7 +41,6 @@
     <%=text%>
 </div>
 
-
 <%
     Utils.activateSessione(request);
     UserDao userDao = UserDao.get__instance();
@@ -83,16 +82,18 @@
         </c:if>
     </c:forEach>
 
-    <tr style="font-size: large">
+    <tr>
 
-        <td><a href="logout">LogOut</a></td>
+        </br>
+        <div style="font-weight: bold;color: navy;text-align:right;right: 20px;top: 30px;position: fixed">
+            <td><a href="logout">LogOut</a></td>
+        </div>
         <td>&ensp;</td>
         <td><a href="userEdit.jsp">Edit user</a></td>
         <td>&ensp;</td>
         <td><a href="userRemove.jsp">Remove user</a></td>
 
     </tr>
-    </br>
 
 
 </c:if>
@@ -105,7 +106,9 @@
 
         </br>
         <tr>
-            <td><a href="login.jsp">Login</a></td>
+            <div style="font-weight: bold;color: navy;text-align:right;right: 20px;top: 30px;position: fixed">
+                <td><a href="login.jsp">Login</a></td>
+            </div>
             <td>&ensp;</td>
             <td><a href="register.jsp">Register</a></td>
         </tr>
@@ -121,19 +124,28 @@
     <table border="1px" align="center" style="text-align: center;background: lightgray">
 
         <tr style="font-weight: bold;font-size: 17px">
+
             <td>Author</td>
+            <%--<td>ReTweeted from</td>--%>
             <td>Message</td>
             <td>Published</td>
+
             <c:if test="${sessionOk}">
                 <td>Options</td>
                 <td>Comments</td>
+                <td>ReTweet</td>
+
             </c:if>
         </tr>
 
         <c:forEach items="${tweetList}" var="tweet">
 
             <tr>
+
+
                 <td style="font-weight: bold"><c:out value="${tweet.user.nick}"/></td>
+                <%--<td style="font-weight: bold"><c:out value="${tweet.idReTweets.user.nick}"/></td>--%>
+
                 <td style="font-weight: bold"><c:out value="${tweet.message}"/></td>
 
                 <jsp:useBean id="myDate" class="java.util.Date"/>
@@ -142,23 +154,29 @@
 
 
                 <c:if test="${sessionOk}">
-                    <c:if test="${userId == tweet.user.id}">
+                    <c:if test="${userId == tweet.user.id }">
                         <td>
                             <a style="font-weight: bold" href='removeTwitt?id=<c:out value="${tweet.id}"/>'>Remove</a>
                             <a style="font-weight: bold" href='updateTwitt.jsp?id=<c:out value="${tweet.id}"/>'>Edit</a>
                         </td>
                     </c:if>
+
                     <c:if test="${userId != tweet.user.id}">
                         <td>&nbsp;</td>
                     </c:if>
                 </c:if>
+
                 <c:if test="${sessionOk}">
 
                     <td>
                         <a style="font-weight: bold" href='addComment.jsp?id=<c:out value="${tweet.id}"/>'>Comment</a>
                     </td>
+                    <td>
+                        <a style="font-weight: bold" href='retweet.jsp?id=<c:out value="${tweet.id}"/>'>ReTweet</a>
+                    </td>
                 </c:if>
             </tr>
+
             <tr>
             <c:forEach items="${commentsList}" var="commentsss">
                 <c:if test="${tweet.id == commentsss.tweet.id}">
@@ -166,6 +184,7 @@
 
 
                         <td style="background: beige"><c:out value="${commentsss.author.nick}"/>
+                        <%--<td style="background: beige"></td>--%>
                         <td style="background: beige">
                                 <c:out value="${commentsss.message}"/>
                                 <jsp:useBean id="myDate1" class="java.util.Date"/>
