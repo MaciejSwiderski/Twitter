@@ -66,11 +66,9 @@ public abstract class AbstractDao<T extends BaseEntity> {
      * @return Collection of the objects
      */
     public Optional<List<T>> getAll() {
-
+        Session session = HibernateUtilis.getHibernateSession();
         try {
-            Session session = HibernateUtilis.getHibernateSession();
-            //List<T> entities = session.createQuery("FROM " + getClazz().getSimpleName()).list();
-            List entities = session.createQuery("FROM " + getClazz().getSimpleName()).list();
+            List<T> entities = session.createQuery("FROM " + getClazz().getSimpleName()).list();
             return Optional.of(entities);
         } catch (HibernateException e) {
             e.printStackTrace();

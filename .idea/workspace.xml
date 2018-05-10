@@ -66,8 +66,8 @@
       <file leaf-file-name="AbstractDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/twitter/data/AbstractDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -637,7 +637,7 @@
       <workItem from="1524429765481" duration="212276000" />
       <workItem from="1525597681405" duration="41365000" />
       <workItem from="1525902624832" duration="2323000" />
-      <workItem from="1525905744845" duration="9971000" />
+      <workItem from="1525905744845" duration="10267000" />
     </task>
     <servers />
   </component>
@@ -650,7 +650,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509814000" />
+    <option name="totallyTimeSpent" value="510110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,7 +667,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5015129" side_tool="true" weight="0.37987012" />
-      <window_info anchor="bottom" id="Application Servers" order="7" visible="true" weight="0.50108224" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="7" visible="true" weight="0.50108224" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
@@ -687,7 +687,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.37878788" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.21645021" />
       <window_info id="Persistence" order="7" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8150852" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8150852" visible="true" weight="0.15778251" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Google Cloud Storage" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -1107,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdacademy/twitter/data/AbstractDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="74" column="32" lean-forward="true" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
         </state>
       </provider>
     </entry>
