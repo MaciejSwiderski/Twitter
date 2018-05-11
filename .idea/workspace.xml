@@ -8,45 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="146be1d9-c211-4188-a839-a711c58d88c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SDATwitter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SDATwitter_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDATwitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDATwitter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/SDATwitter.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/SDATwitter/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/META-INF/maven/com.sdacademy.twitter/SDATwitter/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/META-INF/maven/com.sdacademy.twitter/SDATwitter/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/appengine-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/appengine-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/data/AbstractDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/classes/com/sdacademy/twitter/data/AbstractDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/data/CommentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/data/TweetDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/data/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/Comments$CommentsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/Tweet$TweetBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/Tweet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/AddCommentsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/LogOutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/ReTweetServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/RemoveCommentServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/RemoveServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/TwittServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/UpdateCommentServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/UpdateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/UserEdit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/services/UserRemoveServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/utilis/HibernateUtilis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sdacademy/twitter/utilis/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +54,8 @@
       <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="272">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -628,7 +590,7 @@
       <workItem from="1524429765481" duration="212276000" />
       <workItem from="1525597681405" duration="41365000" />
       <workItem from="1525902624832" duration="2323000" />
-      <workItem from="1525905744845" duration="46330000" />
+      <workItem from="1525905744845" duration="48447000" />
     </task>
     <servers />
   </component>
@@ -641,7 +603,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546173000" />
+    <option name="totallyTimeSpent" value="548290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,13 +631,13 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.38636363" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32792208" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49840087" weight="0.27380952" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49840087" visible="true" weight="0.27380952" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32792208" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32792208" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.37878788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.37878788" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.21645021" />
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8150852" visible="true" weight="0.15778251" />
@@ -1139,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="272">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
