@@ -28,12 +28,7 @@
       <artifactId>lombok</artifactId>
       <version>1.16.20</version>
     </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -50,28 +45,147 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+
+
+
+    <!--<dependency>-->
+      <!--<groupId>com.google.appengine</groupId>-->
+      <!--<artifactId>appengine-api-1.0-sdk</artifactId>-->
+      <!--<version>1.9.63</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>com.google.cloud.sql</groupId>-->
+      <!--<artifactId>mysql-socket-factory</artifactId>-->
+      <!--<version>1.0.8</version>-->
+    <!--</dependency>-->
+
+
+
+
+
   </dependencies>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+
+
+
+
+
+    <!--<INSTANCE_CONNECTION_NAME>project:region:instance</INSTANCE_CONNECTION_NAME>-->
+    <!--<user>root</user>-->
+    <!--<password>myPassword</password>-->
+    <!--<database>myDatabase</database>-->
+
+
+
+
+
   </properties>
   <build>
     <finalName>SDATwitter</finalName>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>-->
+
   <plugins>
-    <plugin>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.1.0</version>
-    </plugin>
-    <plugin>
-    <groupId>com.google.cloud.tools</groupId>
-    <artifactId>appengine-maven-plugin</artifactId>
-    <version>1.3.1</version>
-    </plugin>
+
+
+          <!--<plugin>-->
+              <!--<groupId>org.apache.maven.plugins</groupId>-->
+              <!--<artifactId>maven-war-plugin</artifactId>-->
+              <!--<version>3.0.0</version>-->
+              <!--<configuration>-->
+                  <!--<webResources>-->
+                      <!--&lt;!&ndash; in order to interpolate version from pom into appengine-web.xml &ndash;&gt;-->
+                      <!--<resource>-->
+                          <!--<directory>${basedir}/src/main/webapp/WEB-INF</directory>-->
+                          <!--<filtering>true</filtering>-->
+                          <!--<targetPath>WEB-INF</targetPath>-->
+                      <!--</resource>-->
+                  <!--</webResources>-->
+              <!--</configuration>-->
+          <!--</plugin>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<plugin>-->
+      <!--<artifactId>maven-war-plugin</artifactId>-->
+      <!--<version>3.1.0</version>-->
+    <!--</plugin>-->
+    <!--<plugin>-->
+    <!--<groupId>com.google.cloud.tools</groupId>-->
+    <!--<artifactId>appengine-maven-plugin</artifactId>-->
+    <!--<version>1.3.1</version>-->
+    <!--</plugin>-->
 
 
   </plugins>
+
+
+
+
+
+
   </build>
+
+
 </project>
