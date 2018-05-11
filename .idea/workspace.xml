@@ -9,9 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="146be1d9-c211-4188-a839-a711c58d88c8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SDATwitter/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="2108">
+              <caret line="124" column="55" lean-forward="true" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -99,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -211,10 +209,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sdacademy/twitter/services/UserRemoveServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdacademy/twitter/services/ReTweetServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sdacademy/twitter/data/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/app.yaml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -305,6 +303,8 @@
       <recent name="com.sdacademy.twitter.data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter" />
+      <recent name="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter\target" />
       <recent name="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter\src\main\resources" />
       <recent name="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter\src\main\webapp" />
     </key>
@@ -504,7 +504,7 @@
       <workItem from="1524429765481" duration="212276000" />
       <workItem from="1525597681405" duration="41365000" />
       <workItem from="1525902624832" duration="2323000" />
-      <workItem from="1525905744845" duration="49099000" />
+      <workItem from="1525905744845" duration="49864000" />
     </task>
     <servers />
   </component>
@@ -517,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548942000" />
+    <option name="totallyTimeSpent" value="549707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,11 +530,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-637" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5015129" side_tool="true" weight="0.37987012" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.28896105" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
@@ -991,13 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1016,6 +1010,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="55" lean-forward="true" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
         </state>
       </provider>
     </entry>
