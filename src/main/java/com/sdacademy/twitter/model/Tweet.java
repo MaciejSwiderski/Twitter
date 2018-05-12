@@ -23,6 +23,8 @@ public class Tweet implements BaseEntity {
     @Column(nullable = false)
     private String message;
 
+
+
     @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;

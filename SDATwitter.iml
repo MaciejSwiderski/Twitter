@@ -28,6 +28,12 @@
     <facet type="app-engine-standard" name="Google App Engine Standard">
       <configuration />
     </facet>
+    <facet type="app-engine-flexible" name="Google App Engine Flexible">
+      <configuration>
+        <option name="appYamlPath" value="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter\src\main\appengine\app.yaml" />
+        <option name="dockerDirectory" value="C:\repozytoriumMaciej\maciejrepozytorium\java_programing\maciej.swiderski\Nowy folder\SDATwitter\src\main\docker" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/SDATwitter/WEB-INF/classes" />
